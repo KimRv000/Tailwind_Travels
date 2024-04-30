@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Card{
+    @apply inline-block w-48 h-64 shadow-md rounded-lg mr-4 transform transition hover:-translate-y-4 hover:shadow-lg 
+}
+
+.sectionTitle {
+    @apply text-primary font-semibold text-2xl my-4
+}
+
